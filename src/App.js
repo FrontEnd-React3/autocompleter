@@ -19,7 +19,7 @@ function App() {
     const regex = new RegExp(`${text}`, "gi");
     console.log("regex" + regex)
   return country.name.common.match(regex) 
-  // || country.idd.capital.match(regex);
+  // || country.capital.match(regex);
   });
   setCountryMatch(matches);}; return (
     <div className="App">
